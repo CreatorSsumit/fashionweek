@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    
+}
+
+body::before{
+    content: "";
+    
+    background-image: url('./img/Whangaehu.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.15;
+    background-repeat: repeat-y;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-around;
+    position: relative;
+
+}
+.item:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+#tilte{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px grey;
+    z-index: 9999999 !important;
+}
+#ray{
+margin-top: 20px;
+    width:20%;
+    border: 4px solid  #E09E08; 
+    border-radius: 10px;
+
+}
+.item{
+    background: #000;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    position: relative;
+    box-shadow: 10px 10px 5px rgb(209, 207, 207);
+}
+
+.item:nth-child(even){
+    width:400px;
+    height: 550px;
+ }
+.item:nth-child(odd){
+    width:400px;
+    height: 650px;
+    
+}
+
+.img1{
+    background-image: url(https://images.unsplash.com/photo-1586907835000-f692bbd4c9e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=361&q=80);
+}
+
+.img2{
+    background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80);
+}
+.img3{
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+.img4{
+    background-image: url(https://images.unsplash.com/photo-1461799821556-055545cf32dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+.img5{
+    background-image: url(https://images.unsplash.com/photo-1542403333-cd6d9707fa36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+.img6{
+    background-image: url(https://images.unsplash.com/photo-1565049186631-1321978d1eb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+}
+.img7{
+    background-image: url(https://images.unsplash.com/photo-1627067227573-07bc616f46ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+}
+.img8{
+    background-image: url(https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+}
+.img9{
+    background-image: url(https://images.unsplash.com/photo-1635380241498-e022e7b4646d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+}
+.img10{
+    background-image: url(https://images.unsplash.com/photo-1604967846775-c79f632f6f1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+}
+.img11{
+
+    background-image: url(https://images.unsplash.com/photo-1616805714945-fae3d5b23809?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80);
+}
+.img12{
+    background-image: url(https://images.unsplash.com/photo-1614676489559-5ee9f89edf70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+
+.item > div{
+    width: 100%;
+    padding: 30px 20px;
+    position: relative;
+    top: 91%;
+opacity:0.9;
+background: #000;
+font-family: 'Roboto san-serif';
+font-size: 20px;
+}
+
+
+.item > div > p{
+  color: aliceblue;
+  position: absolute;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+ 
+  
+}
+
+#desc{
+   font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #main{
+      padding: 25px !important;
+        display: block;
+    }
+    #tilte{
+        text-align: center;
+        font-size: 50px !important;
+    }
+    .item{
+        width: 100% !important;
+        margin: 0!important;
+    }
+    #desc{
+        font-weight: 800;font-size: 16px
+      }
+      
+  }
